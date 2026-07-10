@@ -54,7 +54,7 @@ Ensure you have Python 3.8+ installed.
 ### Setup Steps
 1. **Clone & Navigate**:
    ```bash
-   cd "assignment of ai product intern"
+   cd "ai-product-intern"
    ```
 2. **Install Dependencies**:
    ```bash
