@@ -1,0 +1,2873 @@
+[
+  {
+    "name": "Salesforce",
+    "category": "CRM and Sales",
+    "one_line_description": "Enterprise cloud-based customer relationship management platform.",
+    "authentication": [
+      "OAuth2",
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "Yes",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developer.salesforce.com/docs/api",
+    "confidence": 80.0,
+    "buildability_score": 95.0,
+    "needs_human_review": true,
+    "evidence": {
+      "api_docs_url": "https://developer.salesforce.com/docs/api",
+      "developer_portal_url": "https://developer.salesforce.com",
+      "auth_docs_url": "https://help.salesforce.com/s/articleView?id=sf.remoteaccess_oauth_flows.htm",
+      "pricing_url": "https://www.salesforce.com/pricing/"
+    },
+    "automated_fetch_success": false
+  },
+  {
+    "name": "HubSpot",
+    "category": "CRM and Sales",
+    "one_line_description": "Inbound marketing, sales, and service software platform.",
+    "authentication": [
+      "OAuth2",
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "Yes",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developers.hubspot.com/docs/api",
+    "confidence": 100.0,
+    "buildability_score": 100.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://developers.hubspot.com/docs/api",
+      "developer_portal_url": "https://developers.hubspot.com",
+      "auth_docs_url": "https://developers.hubspot.com/docs/api/oauth-quickstart",
+      "pricing_url": "https://www.hubspot.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Pipedrive",
+    "category": "CRM and Sales",
+    "one_line_description": "Web-based sales CRM and pipeline management software.",
+    "authentication": [
+      "OAuth2",
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developers.pipedrive.com/docs/api",
+    "confidence": 100.0,
+    "buildability_score": 85.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://developers.pipedrive.com/docs/api",
+      "developer_portal_url": "https://developers.pipedrive.com",
+      "auth_docs_url": "https://pipedrive.readme.io/docs/how-to-use-oauth-20",
+      "pricing_url": "https://www.pipedrive.com/en/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Attio",
+    "category": "CRM and Sales",
+    "one_line_description": "A flexible, modern CRM built for scale and automation.",
+    "authentication": [
+      "API Key",
+      "OAuth2"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Moderate",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developers.attio.com",
+    "confidence": 100.0,
+    "buildability_score": 85.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://developers.attio.com",
+      "developer_portal_url": "https://app.attio.com",
+      "auth_docs_url": "https://developers.attio.com/reference/authentication",
+      "pricing_url": "https://attio.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Twenty",
+    "category": "CRM and Sales",
+    "one_line_description": "Modern open-source CRM built to be a direct competitor to Salesforce.",
+    "authentication": [
+      "API Key",
+      "OAuth2"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "Yes",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://twenty.com",
+    "confidence": 100.0,
+    "buildability_score": 100.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://twenty.com",
+      "developer_portal_url": "https://twenty.com/developers",
+      "auth_docs_url": "https://docs.twenty.com/developer/api-auth",
+      "pricing_url": "https://twenty.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Podio",
+    "category": "CRM and Sales",
+    "one_line_description": "Collaborative work platform for organizing team projects and tasks.",
+    "authentication": [
+      "OAuth2",
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Moderate",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developers.podio.com",
+    "confidence": 100.0,
+    "buildability_score": 85.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://developers.podio.com",
+      "developer_portal_url": "https://podio.com/settings/api",
+      "auth_docs_url": "https://developers.podio.com/index/oauth",
+      "pricing_url": "https://podio.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Zoho CRM",
+    "category": "CRM and Sales",
+    "one_line_description": "Omnichannel customer relationship management tool for sales automation.",
+    "authentication": [
+      "OAuth2"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://www.zoho.com/crm/developer/docs/api/",
+    "confidence": 100.0,
+    "buildability_score": 100.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://www.zoho.com/crm/developer/docs/api/",
+      "developer_portal_url": "https://api-console.zoho.com",
+      "auth_docs_url": "https://www.zoho.com/crm/developer/docs/api/v2/oauth-overview.html",
+      "pricing_url": "https://www.zoho.com/crm/pricing.html"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Close",
+    "category": "CRM and Sales",
+    "one_line_description": "Sales engagement CRM designed for high-growth sales teams.",
+    "authentication": [
+      "API Key",
+      "Basic Auth"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Moderate",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developer.close.com",
+    "confidence": 100.0,
+    "buildability_score": 80.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://developer.close.com",
+      "developer_portal_url": "https://app.close.com",
+      "auth_docs_url": "https://developer.close.com/#authentication",
+      "pricing_url": "https://close.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Copper",
+    "category": "CRM and Sales",
+    "one_line_description": "CRM built specifically for Google Workspace users.",
+    "authentication": [
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Moderate",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developer.copper.com",
+    "confidence": 100.0,
+    "buildability_score": 80.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://developer.copper.com/",
+      "developer_portal_url": "https://app.copper.com",
+      "auth_docs_url": "https://developer.copper.com/#authentication",
+      "pricing_url": "https://www.copper.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "DealCloud",
+    "category": "CRM and Sales",
+    "one_line_description": "Financial CRM and deal management platform for private equity and investment banking.",
+    "authentication": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "credential_availability": "Gated/Requires sales outreach",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Likely",
+    "api_breadth": "Moderate",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Low",
+    "primary_blocker": "Partner gated / Requires active subscription and sales provisioning",
+    "evidence_url": "https://api.docs.dealcloud.com",
+    "confidence": 100.0,
+    "buildability_score": 35.0,
+    "needs_human_review": true,
+    "evidence": {
+      "api_docs_url": "https://api.docs.dealcloud.com",
+      "developer_portal_url": "https://dealcloud.com",
+      "auth_docs_url": "https://api.docs.dealcloud.com/help",
+      "pricing_url": "https://dealcloud.com/request-a-demo/"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Zendesk",
+    "category": "Support and Helpdesk",
+    "one_line_description": "Customer service software and support ticketing system.",
+    "authentication": [
+      "OAuth2",
+      "API Key",
+      "Basic Auth"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developer.zendesk.com/api-reference/",
+    "confidence": 100.0,
+    "buildability_score": 100.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://developer.zendesk.com/api-reference/",
+      "developer_portal_url": "https://developer.zendesk.com",
+      "auth_docs_url": "https://developer.zendesk.com/api-reference/ticketing/introduction/#authentication",
+      "pricing_url": "https://www.zendesk.com/pricing/"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Intercom",
+    "category": "Support and Helpdesk",
+    "one_line_description": "AI-first customer service platform for support and engagement.",
+    "authentication": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developers.intercom.com/intercom-api-reference",
+    "confidence": 100.0,
+    "buildability_score": 100.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://developers.intercom.com/intercom-api-reference",
+      "developer_portal_url": "https://developers.intercom.com",
+      "auth_docs_url": "https://developers.intercom.com/building-apps/docs/authentication",
+      "pricing_url": "https://www.intercom.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Freshdesk",
+    "category": "Support and Helpdesk",
+    "one_line_description": "Cloud-based customer support software for ticketing and helpdesk operations.",
+    "authentication": [
+      "API Key",
+      "Basic Auth"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developers.freshdesk.com/api/",
+    "confidence": 100.0,
+    "buildability_score": 80.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://developers.freshdesk.com/api/",
+      "developer_portal_url": "https://developers.freshdesk.com",
+      "auth_docs_url": "https://developers.freshdesk.com/api/#authentication",
+      "pricing_url": "https://freshdesk.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Front",
+    "category": "Support and Helpdesk",
+    "one_line_description": "Customer operations platform that centralizes company communications.",
+    "authentication": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Moderate",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://dev.frontapp.com/docs/api",
+    "confidence": 80.0,
+    "buildability_score": 80.0,
+    "needs_human_review": true,
+    "evidence": {
+      "api_docs_url": "https://dev.frontapp.com/docs/api",
+      "developer_portal_url": "https://dev.frontapp.com",
+      "auth_docs_url": "https://dev.frontapp.com/docs/api/authentication",
+      "pricing_url": "https://front.com/pricing"
+    },
+    "automated_fetch_success": false
+  },
+  {
+    "name": "Pylon",
+    "category": "Support and Helpdesk",
+    "one_line_description": "Customer support infrastructure for Slack-first support teams.",
+    "authentication": [
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Limited",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://docs.usepylon.com",
+    "confidence": 100.0,
+    "buildability_score": 80.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://docs.usepylon.com",
+      "developer_portal_url": "https://docs.usepylon.com/reference",
+      "auth_docs_url": "https://docs.usepylon.com/reference/authentication",
+      "pricing_url": "https://usepylon.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "LiveAgent",
+    "category": "Support and Helpdesk",
+    "one_line_description": "Ticketing and live chat software for customer support channels.",
+    "authentication": [
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Moderate",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://api.liveagent.com",
+    "confidence": 80.0,
+    "buildability_score": 75.0,
+    "needs_human_review": true,
+    "evidence": {
+      "api_docs_url": "https://api.liveagent.com",
+      "developer_portal_url": "https://api.liveagent.com/docs",
+      "auth_docs_url": "https://api.liveagent.com/docs/#section/Authentication",
+      "pricing_url": "https://www.liveagent.com/pricing/"
+    },
+    "automated_fetch_success": false
+  },
+  {
+    "name": "Plain",
+    "category": "Support and Helpdesk",
+    "one_line_description": "Developer-first customer support API and platform.",
+    "authentication": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "No",
+    "graphql": "Yes",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://plain.com/docs",
+    "confidence": 100.0,
+    "buildability_score": 80.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://plain.com/docs",
+      "developer_portal_url": "https://plain.com/docs/developer-tools",
+      "auth_docs_url": "https://plain.com/docs/graphql/authentication",
+      "pricing_url": "https://plain.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Help Scout",
+    "category": "Support and Helpdesk",
+    "one_line_description": "Customer support platform offering shared inbox and knowledge base capabilities.",
+    "authentication": [
+      "OAuth2"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developer.helpscout.com/mailbox-api/",
+    "confidence": 100.0,
+    "buildability_score": 85.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://developer.helpscout.com/mailbox-api/",
+      "developer_portal_url": "https://developer.helpscout.com",
+      "auth_docs_url": "https://developer.helpscout.com/mailbox-api/credentials/",
+      "pricing_url": "https://www.helpscout.com/pricing/"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Gorgias",
+    "category": "Support and Helpdesk",
+    "one_line_description": "Ecommerce helpdesk for customer support and ticket management.",
+    "authentication": [
+      "API Key",
+      "Basic Auth"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Moderate",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developers.gorgias.com",
+    "confidence": 100.0,
+    "buildability_score": 80.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://developers.gorgias.com",
+      "developer_portal_url": "https://developers.gorgias.com/reference",
+      "auth_docs_url": "https://developers.gorgias.com/reference/authentication",
+      "pricing_url": "https://www.gorgias.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Gladly",
+    "category": "Support and Helpdesk",
+    "one_line_description": "People-centered customer service platform focused on user conversations.",
+    "authentication": [
+      "API Key",
+      "Basic Auth"
+    ],
+    "credential_availability": "Gated/Requires sales outreach",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Moderate",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Low",
+    "primary_blocker": "Requires enterprise setup and provisioning",
+    "evidence_url": "https://developer.gladly.com",
+    "confidence": 100.0,
+    "buildability_score": 35.0,
+    "needs_human_review": true,
+    "evidence": {
+      "api_docs_url": "https://developer.gladly.com",
+      "developer_portal_url": "https://gladly.com",
+      "auth_docs_url": "https://developer.gladly.com/reference/auth-header",
+      "pricing_url": "https://www.gladly.com/pricing/"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Slack",
+    "category": "Communications and Messaging",
+    "one_line_description": "Team communication platform that organizes workspace operations.",
+    "authentication": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://api.slack.com/web",
+    "confidence": 100.0,
+    "buildability_score": 100.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://api.slack.com/web",
+      "developer_portal_url": "https://api.slack.com/apps",
+      "auth_docs_url": "https://api.slack.com/authentication",
+      "pricing_url": "https://slack.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Twilio",
+    "category": "Communications and Messaging",
+    "one_line_description": "Customer engagement API platform for SMS, Voice, and Video.",
+    "authentication": [
+      "Basic Auth",
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://www.twilio.com/docs/usage/api",
+    "confidence": 100.0,
+    "buildability_score": 95.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://www.twilio.com/docs/usage/api",
+      "developer_portal_url": "https://www.twilio.com/console",
+      "auth_docs_url": "https://www.twilio.com/docs/usage/security#authentication",
+      "pricing_url": "https://www.twilio.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Zoho Cliq",
+    "category": "Communications and Messaging",
+    "one_line_description": "Business communication software with integrated developer APIs.",
+    "authentication": [
+      "OAuth2"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Moderate",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://www.zoho.com/cliq/developer/docs/api/",
+    "confidence": 80.0,
+    "buildability_score": 80.0,
+    "needs_human_review": true,
+    "evidence": {
+      "api_docs_url": "https://www.zoho.com/cliq/developer/docs/api/",
+      "developer_portal_url": "https://api-console.zoho.com",
+      "auth_docs_url": "https://www.zoho.com/cliq/developer/docs/api/oauth-cliq.html",
+      "pricing_url": "https://www.zoho.com/cliq/pricing.html"
+    },
+    "automated_fetch_success": false
+  },
+  {
+    "name": "Lark (Larksuite)",
+    "category": "Communications and Messaging",
+    "one_line_description": "Collaborative enterprise office suite for messaging and documents.",
+    "authentication": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://open.larksuite.com/document/home/index",
+    "confidence": 100.0,
+    "buildability_score": 85.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://open.larksuite.com/document/home/index",
+      "developer_portal_url": "https://open.larksuite.com/app",
+      "auth_docs_url": "https://open.larksuite.com/document/uk0zI1YjLx0TM04yMTNEdjN/gGjN3UjLxozN14yM2cTN",
+      "pricing_url": "https://www.larksuite.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Pumble",
+    "category": "Communications and Messaging",
+    "one_line_description": "Team chat application for workplace messaging and file sharing.",
+    "authentication": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Limited",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://pumble.com/developers/api",
+    "confidence": 80.0,
+    "buildability_score": 80.0,
+    "needs_human_review": true,
+    "evidence": {
+      "api_docs_url": "https://pumble.com/developers/api",
+      "developer_portal_url": "https://pumble.com/developers",
+      "auth_docs_url": "https://pumble.com/developers/docs/auth",
+      "pricing_url": "https://pumble.com/pricing"
+    },
+    "automated_fetch_success": false
+  },
+  {
+    "name": "Discord",
+    "category": "Communications and Messaging",
+    "one_line_description": "Voice, video, and text communication platform for online communities.",
+    "authentication": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://discord.com/developers/docs/intro",
+    "confidence": 100.0,
+    "buildability_score": 100.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://discord.com/developers/docs/intro",
+      "developer_portal_url": "https://discord.com/developers/applications",
+      "auth_docs_url": "https://discord.com/developers/docs/topics/oauth2",
+      "pricing_url": "https://discord.com/nitro"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Telegram",
+    "category": "Communications and Messaging",
+    "one_line_description": "Cloud-based mobile and desktop messaging app with an open bot API.",
+    "authentication": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Moderate",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://core.telegram.org/bots/api",
+    "confidence": 100.0,
+    "buildability_score": 95.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://core.telegram.org/bots/api",
+      "developer_portal_url": "https://telegram.org/faq#q-how-do-i-create-a-bot",
+      "auth_docs_url": "https://core.telegram.org/bots/api#authorizing-your-bot",
+      "pricing_url": "https://telegram.org/faq"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "WhatsApp Business",
+    "category": "Communications and Messaging",
+    "one_line_description": "Global customer communication API platform from Meta.",
+    "authentication": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Moderate",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developers.facebook.com/docs/whatsapp/cloud-api",
+    "confidence": 80.0,
+    "buildability_score": 95.0,
+    "needs_human_review": true,
+    "evidence": {
+      "api_docs_url": "https://developers.facebook.com/docs/whatsapp/cloud-api",
+      "developer_portal_url": "https://developers.facebook.com",
+      "auth_docs_url": "https://developers.facebook.com/docs/whatsapp/cloud-api/get-started",
+      "pricing_url": "https://developers.facebook.com/docs/whatsapp/pricing"
+    },
+    "automated_fetch_success": false
+  },
+  {
+    "name": "Aircall",
+    "category": "Communications and Messaging",
+    "one_line_description": "Cloud-based call center software and telephony API platform.",
+    "authentication": [
+      "Basic Auth",
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Moderate",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developer.aircall.io",
+    "confidence": 100.0,
+    "buildability_score": 80.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://developer.aircall.io",
+      "developer_portal_url": "https://dashboard.aircall.io",
+      "auth_docs_url": "https://developer.aircall.io/docs/authentication",
+      "pricing_url": "https://aircall.io/pricing/"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Vonage",
+    "category": "Communications and Messaging",
+    "one_line_description": "Cloud communications platform for APIs including voice, SMS, and authentication.",
+    "authentication": [
+      "API Key",
+      "JWT",
+      "Basic Auth"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developer.vonage.com",
+    "confidence": 100.0,
+    "buildability_score": 80.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://developer.vonage.com",
+      "developer_portal_url": "https://dashboard.nexmo.com",
+      "auth_docs_url": "https://developer.vonage.com/en/getting-started/authentication",
+      "pricing_url": "https://www.vonage.com/communications-apis/pricing/"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Google Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "one_line_description": "Online advertising platform developed by Google.",
+    "authentication": [
+      "OAuth2"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "No",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Medium",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developers.google.com/google-ads/api/docs/start",
+    "confidence": 100.0,
+    "buildability_score": 70.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://developers.google.com/google-ads/api/docs/start",
+      "developer_portal_url": "https://console.cloud.google.com",
+      "auth_docs_url": "https://developers.google.com/google-ads/api/docs/oauth/overview",
+      "pricing_url": "https://ads.google.com"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Meta Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "one_line_description": "Advertising platform for Facebook, Instagram, Messenger, and Audience Network.",
+    "authentication": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developers.facebook.com/docs/marketing-apis",
+    "confidence": 80.0,
+    "buildability_score": 80.0,
+    "needs_human_review": true,
+    "evidence": {
+      "api_docs_url": "https://developers.facebook.com/docs/marketing-apis",
+      "developer_portal_url": "https://developers.facebook.com",
+      "auth_docs_url": "https://developers.facebook.com/docs/marketing-api/overview/authentication",
+      "pricing_url": "https://www.facebook.com/business/ads"
+    },
+    "automated_fetch_success": false
+  },
+  {
+    "name": "LinkedIn Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "one_line_description": "Advertising platform for business marketing and professional outreach on LinkedIn.",
+    "authentication": [
+      "OAuth2"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Moderate",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://learn.microsoft.com/en-us/linkedin/marketing/",
+    "confidence": 100.0,
+    "buildability_score": 85.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://learn.microsoft.com/en-us/linkedin/marketing/",
+      "developer_portal_url": "https://www.linkedin.com/developers",
+      "auth_docs_url": "https://learn.microsoft.com/en-us/linkedin/shared/authentication/authorization-code-flow",
+      "pricing_url": "https://business.linkedin.com/marketing-solutions/ads"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "GoHighLevel",
+    "category": "Marketing, Ads, Email and Social",
+    "one_line_description": "All-in-one marketing and sales automation platform for agencies.",
+    "authentication": [
+      "OAuth2",
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Moderate",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://highlevel.stoplight.io",
+    "confidence": 100.0,
+    "buildability_score": 85.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://highlevel.stoplight.io",
+      "developer_portal_url": "https://marketplace.gohighlevel.com",
+      "auth_docs_url": "https://highlevel.stoplight.io/docs/integrations/009623e1dc2fb-oauth-2-0-overview",
+      "pricing_url": "https://www.gohighlevel.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Mailchimp",
+    "category": "Marketing, Ads, Email and Social",
+    "one_line_description": "Marketing automation and email marketing platform.",
+    "authentication": [
+      "OAuth2",
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://mailchimp.com/developer/marketing/api/",
+    "confidence": 100.0,
+    "buildability_score": 85.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://mailchimp.com/developer/marketing/api/",
+      "developer_portal_url": "https://login.mailchimp.com",
+      "auth_docs_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/#oauth2",
+      "pricing_url": "https://mailchimp.com/pricing/"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Klaviyo",
+    "category": "Marketing, Ads, Email and Social",
+    "one_line_description": "Customer data and email marketing platform tailored for ecommerce.",
+    "authentication": [
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Moderate",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developers.klaviyo.com",
+    "confidence": 100.0,
+    "buildability_score": 80.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://developers.klaviyo.com",
+      "developer_portal_url": "https://www.klaviyo.com/app",
+      "auth_docs_url": "https://developers.klaviyo.com/en/docs/authentication",
+      "pricing_url": "https://www.klaviyo.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "systeme.io",
+    "category": "Marketing, Ads, Email and Social",
+    "one_line_description": "All-in-one online business software for funnels, email, and courses.",
+    "authentication": [
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Limited",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://systeme.io",
+    "confidence": 100.0,
+    "buildability_score": 80.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://systeme.io",
+      "developer_portal_url": "https://systeme.io/dashboard/settings/api-keys",
+      "auth_docs_url": "https://systeme.io/help",
+      "pricing_url": "https://systeme.io/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Pinterest",
+    "category": "Marketing, Ads, Email and Social",
+    "one_line_description": "Visual discovery, sharing, and social media marketing platform.",
+    "authentication": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Moderate",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developers.pinterest.com/docs/api/v5/",
+    "confidence": 100.0,
+    "buildability_score": 85.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://developers.pinterest.com/docs/api/v5/",
+      "developer_portal_url": "https://developers.pinterest.com",
+      "auth_docs_url": "https://developers.pinterest.com/docs/api/v5/#tag/authentication",
+      "pricing_url": "https://ads.pinterest.com/"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Threads (Meta)",
+    "category": "Marketing, Ads, Email and Social",
+    "one_line_description": "Social media API platform for publishing and retrieving Threads content.",
+    "authentication": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Limited",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developers.facebook.com/docs/threads",
+    "confidence": 80.0,
+    "buildability_score": 80.0,
+    "needs_human_review": true,
+    "evidence": {
+      "api_docs_url": "https://developers.facebook.com/docs/threads",
+      "developer_portal_url": "https://developers.facebook.com",
+      "auth_docs_url": "https://developers.facebook.com/docs/threads/getting-started",
+      "pricing_url": "https://threads.net"
+    },
+    "automated_fetch_success": false
+  },
+  {
+    "name": "SendGrid",
+    "category": "Marketing, Ads, Email and Social",
+    "one_line_description": "Cloud-based customer communication platform for transactional and marketing email.",
+    "authentication": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://docs.sendgrid.com/api-reference",
+    "confidence": 100.0,
+    "buildability_score": 95.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://docs.sendgrid.com/api-reference",
+      "developer_portal_url": "https://app.sendgrid.com",
+      "auth_docs_url": "https://docs.sendgrid.com/for-developers/sending-email/api-keys",
+      "pricing_url": "https://sendgrid.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Shopify",
+    "category": "Ecommerce",
+    "one_line_description": "Multi-channel cloud commerce platform for online stores and POS systems.",
+    "authentication": [
+      "OAuth2",
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "Yes",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://shopify.dev/docs/api/admin-rest",
+    "confidence": 100.0,
+    "buildability_score": 100.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://shopify.dev/docs/api/admin-rest",
+      "developer_portal_url": "https://partners.shopify.com",
+      "auth_docs_url": "https://shopify.dev/docs/apps/auth",
+      "pricing_url": "https://www.shopify.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "WooCommerce",
+    "category": "Ecommerce",
+    "one_line_description": "Open-source, highly customizable ecommerce plugin for WordPress.",
+    "authentication": [
+      "API Key",
+      "Basic Auth"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+    "confidence": 100.0,
+    "buildability_score": 95.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+      "developer_portal_url": "https://woocommerce.com",
+      "auth_docs_url": "https://woocommerce.github.io/woocommerce-rest-api-docs/#authentication",
+      "pricing_url": "https://woocommerce.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "BigCommerce",
+    "category": "Ecommerce",
+    "one_line_description": "Flexible, open SaaS ecommerce platform for scaling businesses.",
+    "authentication": [
+      "OAuth2",
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "Yes",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developer.bigcommerce.com/api-reference",
+    "confidence": 100.0,
+    "buildability_score": 100.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://developer.bigcommerce.com/api-reference",
+      "developer_portal_url": "https://devtools.bigcommerce.com",
+      "auth_docs_url": "https://developer.bigcommerce.com/docs/start/authentication",
+      "pricing_url": "https://www.bigcommerce.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Salesforce Commerce Cloud",
+    "category": "Ecommerce",
+    "one_line_description": "Cloud-based ecommerce platform tailored for enterprise scale.",
+    "authentication": [
+      "OAuth2",
+      "JWT"
+    ],
+    "credential_availability": "Gated/Requires sales outreach",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Low",
+    "primary_blocker": "Requires enterprise contracts and complex environment setup",
+    "evidence_url": "https://developer.salesforce.com/docs/commerce/commerce-api/overview",
+    "confidence": 80.0,
+    "buildability_score": 35.0,
+    "needs_human_review": true,
+    "evidence": {
+      "api_docs_url": "https://developer.salesforce.com/docs/commerce/commerce-api/overview",
+      "developer_portal_url": "https://developer.salesforce.com",
+      "auth_docs_url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html",
+      "pricing_url": "https://www.salesforce.com/products/commerce/"
+    },
+    "automated_fetch_success": false
+  },
+  {
+    "name": "Magento (Adobe Commerce)",
+    "category": "Ecommerce",
+    "one_line_description": "Highly scalable enterprise ecommerce software powered by Adobe.",
+    "authentication": [
+      "Bearer Token",
+      "OAuth2",
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "Yes",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developer.adobe.com/commerce/webapi/",
+    "confidence": 100.0,
+    "buildability_score": 85.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://developer.adobe.com/commerce/webapi/",
+      "developer_portal_url": "https://developer.adobe.com",
+      "auth_docs_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+      "pricing_url": "https://business.adobe.com/products/magento/pricing.html"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Squarespace",
+    "category": "Ecommerce",
+    "one_line_description": "Website building and hosting platform offering API commerce integrations.",
+    "authentication": [
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Moderate",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "Requires active commercial site subscription to generate keys",
+    "evidence_url": "https://developers.squarespace.com/commerce-api",
+    "confidence": 80.0,
+    "buildability_score": 75.0,
+    "needs_human_review": true,
+    "evidence": {
+      "api_docs_url": "https://developers.squarespace.com/commerce-api",
+      "developer_portal_url": "https://developers.squarespace.com",
+      "auth_docs_url": "https://developers.squarespace.com/commerce-api/authentication",
+      "pricing_url": "https://www.squarespace.com/pricing"
+    },
+    "automated_fetch_success": false
+  },
+  {
+    "name": "Ecwid",
+    "category": "Ecommerce",
+    "one_line_description": "SaaS ecommerce solution for adding shop modules to existing websites.",
+    "authentication": [
+      "OAuth2"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Moderate",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://api-docs.ecwid.com",
+    "confidence": 100.0,
+    "buildability_score": 85.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://api-docs.ecwid.com",
+      "developer_portal_url": "https://my.ecwid.com",
+      "auth_docs_url": "https://api-docs.ecwid.com/reference/authentication",
+      "pricing_url": "https://www.ecwid.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Gumroad",
+    "category": "Ecommerce",
+    "one_line_description": "Simple direct-to-creator ecommerce utility and purchasing API.",
+    "authentication": [
+      "OAuth2",
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "No",
+    "api_breadth": "Limited",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Medium",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://gumroad.com/api",
+    "confidence": 100.0,
+    "buildability_score": 70.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://gumroad.com/api",
+      "developer_portal_url": "https://gumroad.com/settings/advanced",
+      "auth_docs_url": "https://gumroad.com/api#authentication",
+      "pricing_url": "https://gumroad.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Amazon Selling Partner",
+    "category": "Ecommerce",
+    "one_line_description": "Suite of APIs helping sellers automate operations on Amazon marketplaces.",
+    "authentication": [
+      "OAuth2",
+      "Custom"
+    ],
+    "credential_availability": "Gated/Requires sales outreach",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "No",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Low",
+    "primary_blocker": "Requires verified Amazon Seller Account and AWS IAM signature configurations",
+    "evidence_url": "https://developer-docs.amazon.com/sp-api",
+    "confidence": 100.0,
+    "buildability_score": 25.0,
+    "needs_human_review": true,
+    "evidence": {
+      "api_docs_url": "https://developer-docs.amazon.com/sp-api",
+      "developer_portal_url": "https://sellercentral.amazon.com",
+      "auth_docs_url": "https://developer-docs.amazon.com/sp-api/docs/authorization-and-authentication",
+      "pricing_url": "https://sell.amazon.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "fanbasis",
+    "category": "Ecommerce",
+    "one_line_description": "Digital creator interaction and monetization hub.",
+    "authentication": [
+      "API Key"
+    ],
+    "credential_availability": "Gated/Requires sales outreach",
+    "public_api": "No",
+    "rest": "No",
+    "graphql": "No",
+    "webhook_support": "No",
+    "api_breadth": "Limited",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Low",
+    "primary_blocker": "No documented public API available for developer sign-ups",
+    "evidence_url": "https://fanbasis.com",
+    "confidence": 100.0,
+    "buildability_score": 20.0,
+    "needs_human_review": true,
+    "evidence": {
+      "api_docs_url": "https://fanbasis.com",
+      "developer_portal_url": "https://fanbasis.com",
+      "auth_docs_url": "https://fanbasis.com",
+      "pricing_url": "https://fanbasis.com"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "DataForSEO",
+    "category": "Data, SEO and Scraping",
+    "one_line_description": "Structured search engine optimization API for keyword, SERP, and SEO data.",
+    "authentication": [
+      "Basic Auth",
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "No",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Medium",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://docs.dataforseo.com",
+    "confidence": 100.0,
+    "buildability_score": 65.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://docs.dataforseo.com",
+      "developer_portal_url": "https://my.dataforseo.com",
+      "auth_docs_url": "https://docs.dataforseo.com/#authentication",
+      "pricing_url": "https://dataforseo.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "SE Ranking",
+    "category": "Data, SEO and Scraping",
+    "one_line_description": "All-in-one SEO platform offering search ranking APIs.",
+    "authentication": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "No",
+    "api_breadth": "Moderate",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Medium",
+    "primary_blocker": "Requires a paid plan to use API endpoints",
+    "evidence_url": "https://seranking.com/api.html",
+    "confidence": 100.0,
+    "buildability_score": 65.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://seranking.com/api.html",
+      "developer_portal_url": "https://seranking.com",
+      "auth_docs_url": "https://seranking.com/api.html",
+      "pricing_url": "https://seranking.com/pricing.html"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Ahrefs",
+    "category": "Data, SEO and Scraping",
+    "one_line_description": "Enterprise SEO tool provider with ranking indexes and search data APIs.",
+    "authentication": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "No",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Medium",
+    "primary_blocker": "Requires enterprise plan subscription",
+    "evidence_url": "https://ahrefs.com/api",
+    "confidence": 100.0,
+    "buildability_score": 70.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://ahrefs.com/api",
+      "developer_portal_url": "https://ahrefs.com/dev",
+      "auth_docs_url": "https://ahrefs.com/api/documentation",
+      "pricing_url": "https://ahrefs.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "MrScraper",
+    "category": "Data, SEO and Scraping",
+    "one_line_description": "Visual web scraper and automated scraping crawler host.",
+    "authentication": [
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Limited",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://docs.mrscraper.com",
+    "confidence": 100.0,
+    "buildability_score": 80.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://docs.mrscraper.com",
+      "developer_portal_url": "https://mrscraper.com",
+      "auth_docs_url": "https://docs.mrscraper.com",
+      "pricing_url": "https://mrscraper.com#pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Apify",
+    "category": "Data, SEO and Scraping",
+    "one_line_description": "Cloud platform for web scraping, data extraction, and robotic process automation.",
+    "authentication": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://docs.apify.com/api/v2",
+    "confidence": 100.0,
+    "buildability_score": 95.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://docs.apify.com/api/v2",
+      "developer_portal_url": "https://console.apify.com",
+      "auth_docs_url": "https://docs.apify.com/api/v2#/introduction/authentication",
+      "pricing_url": "https://apify.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Firecrawl",
+    "category": "Data, SEO and Scraping",
+    "one_line_description": "Web scraping engine that turns pages into clean Markdown for LLMs.",
+    "authentication": [
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "No",
+    "api_breadth": "Limited",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://docs.firecrawl.dev",
+    "confidence": 100.0,
+    "buildability_score": 80.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://docs.firecrawl.dev",
+      "developer_portal_url": "https://www.firecrawl.dev",
+      "auth_docs_url": "https://docs.firecrawl.dev/api-reference/endpoint/scrape",
+      "pricing_url": "https://www.firecrawl.dev/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Bright Data",
+    "category": "Data, SEO and Scraping",
+    "one_line_description": "Global proxy server network and structured web scraping API provider.",
+    "authentication": [
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "No",
+    "api_breadth": "Moderate",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Medium",
+    "primary_blocker": "Requires KYC verification and balance top-ups",
+    "evidence_url": "https://brightdata.com",
+    "confidence": 100.0,
+    "buildability_score": 65.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://brightdata.com",
+      "developer_portal_url": "https://brightdata.com",
+      "auth_docs_url": "https://brightdata.com",
+      "pricing_url": "https://brightdata.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Sherlock",
+    "category": "Data, SEO and Scraping",
+    "one_line_description": "Open-source CLI tool and API for scanning usernames across social sites.",
+    "authentication": [
+      "None"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "No",
+    "graphql": "No",
+    "webhook_support": "No",
+    "api_breadth": "Limited",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Medium",
+    "primary_blocker": "Open source CLI tool, not a hosted API service",
+    "evidence_url": "https://github.com/sherlock-project/sherlock",
+    "confidence": 100.0,
+    "buildability_score": 50.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://github.com/sherlock-project/sherlock",
+      "developer_portal_url": "https://github.com/sherlock-project/sherlock",
+      "auth_docs_url": "https://github.com/sherlock-project/sherlock#installation",
+      "pricing_url": "https://github.com/sherlock-project/sherlock"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Waterfall.io",
+    "category": "Data, SEO and Scraping",
+    "one_line_description": "Contact data and company intelligence provider.",
+    "authentication": [
+      "API Key"
+    ],
+    "credential_availability": "Gated/Requires sales outreach",
+    "public_api": "No",
+    "rest": "No",
+    "graphql": "No",
+    "webhook_support": "No",
+    "api_breadth": "Limited",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Low",
+    "primary_blocker": "No documented public API available for developer sign-ups",
+    "evidence_url": "https://waterfall.io",
+    "confidence": 100.0,
+    "buildability_score": 20.0,
+    "needs_human_review": true,
+    "evidence": {
+      "api_docs_url": "https://waterfall.io",
+      "developer_portal_url": "https://waterfall.io",
+      "auth_docs_url": "https://waterfall.io",
+      "pricing_url": "https://waterfall.io"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Clay",
+    "category": "Data, SEO and Scraping",
+    "one_line_description": "Data enrichment and outbound platform that integrates multiple databases.",
+    "authentication": [
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "No",
+    "api_breadth": "Limited",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Medium",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://clay.com",
+    "confidence": 100.0,
+    "buildability_score": 65.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://clay.com",
+      "developer_portal_url": "https://app.clay.com",
+      "auth_docs_url": "https://clay.com",
+      "pricing_url": "https://clay.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "GitHub",
+    "category": "Developer, Infra and Data platforms",
+    "one_line_description": "Collaborative hosting service for software repositories and git operations.",
+    "authentication": [
+      "OAuth2",
+      "API Key",
+      "Basic Auth"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "Yes",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://docs.github.com/en/rest",
+    "confidence": 100.0,
+    "buildability_score": 100.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://docs.github.com/en/rest",
+      "developer_portal_url": "https://github.com/settings/developers",
+      "auth_docs_url": "https://docs.github.com/en/rest/overview/authenticating-to-the-rest-api",
+      "pricing_url": "https://github.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Vercel",
+    "category": "Developer, Infra and Data platforms",
+    "one_line_description": "Frontend hosting and deployment architecture utility.",
+    "authentication": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://vercel.com/docs/rest-api",
+    "confidence": 100.0,
+    "buildability_score": 100.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://vercel.com/docs/rest-api",
+      "developer_portal_url": "https://vercel.com/dashboard",
+      "auth_docs_url": "https://vercel.com/docs/rest-api#authentication",
+      "pricing_url": "https://vercel.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Netlify",
+    "category": "Developer, Infra and Data platforms",
+    "one_line_description": "Serverless hosting platform and automation portal for web applications.",
+    "authentication": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://docs.netlify.com/api/v1/",
+    "confidence": 80.0,
+    "buildability_score": 95.0,
+    "needs_human_review": true,
+    "evidence": {
+      "api_docs_url": "https://docs.netlify.com/api/v1/",
+      "developer_portal_url": "https://app.netlify.com",
+      "auth_docs_url": "https://docs.netlify.com/api/v1/#authentication",
+      "pricing_url": "https://www.netlify.com/pricing/"
+    },
+    "automated_fetch_success": false
+  },
+  {
+    "name": "Cloudflare",
+    "category": "Developer, Infra and Data platforms",
+    "one_line_description": "Network security, infrastructure, and Edge serverless platform.",
+    "authentication": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developers.cloudflare.com/api/",
+    "confidence": 100.0,
+    "buildability_score": 95.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://developers.cloudflare.com/api/",
+      "developer_portal_url": "https://dash.cloudflare.com",
+      "auth_docs_url": "https://developers.cloudflare.com/api/fundamentals/api-tokens/",
+      "pricing_url": "https://www.cloudflare.com/plans/"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Supabase",
+    "category": "Developer, Infra and Data platforms",
+    "one_line_description": "Open source Firebase alternative built on top of Postgres databases.",
+    "authentication": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://supabase.com/docs",
+    "confidence": 100.0,
+    "buildability_score": 95.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://supabase.com/docs",
+      "developer_portal_url": "https://supabase.com/dashboard",
+      "auth_docs_url": "https://supabase.com/docs/guides/api#securing-your-api",
+      "pricing_url": "https://supabase.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Neo4j",
+    "category": "Developer, Infra and Data platforms",
+    "one_line_description": "Graph database engine with cloud access and analytics APIs.",
+    "authentication": [
+      "Basic Auth",
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "No",
+    "api_breadth": "Moderate",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Medium",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://neo4j.com/docs/api/",
+    "confidence": 80.0,
+    "buildability_score": 60.0,
+    "needs_human_review": true,
+    "evidence": {
+      "api_docs_url": "https://neo4j.com/docs/api/",
+      "developer_portal_url": "https://neo4j.com/cloud",
+      "auth_docs_url": "https://neo4j.com/docs/api/http-api/current/#auth",
+      "pricing_url": "https://neo4j.com/pricing"
+    },
+    "automated_fetch_success": false
+  },
+  {
+    "name": "Snowflake",
+    "category": "Developer, Infra and Data platforms",
+    "one_line_description": "Cloud-based data warehouse and SQL query engine API host.",
+    "authentication": [
+      "OAuth2",
+      "JWT",
+      "Basic Auth"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "No",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://docs.snowflake.com/en/developer-guide/sql-api",
+    "confidence": 100.0,
+    "buildability_score": 85.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://docs.snowflake.com/en/developer-guide/sql-api",
+      "developer_portal_url": "https://app.snowflake.com",
+      "auth_docs_url": "https://docs.snowflake.com/en/developer-guide/sql-api/authenticating",
+      "pricing_url": "https://www.snowflake.com/en/pricing/"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "MongoDB Atlas",
+    "category": "Developer, Infra and Data platforms",
+    "one_line_description": "Cloud-hosted MongoDB database service with administrative APIs.",
+    "authentication": [
+      "API Key",
+      "Basic Auth"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://mongodb.com/docs/atlas/api/v2/",
+    "confidence": 80.0,
+    "buildability_score": 75.0,
+    "needs_human_review": true,
+    "evidence": {
+      "api_docs_url": "https://mongodb.com/docs/atlas/api/v2/",
+      "developer_portal_url": "https://cloud.mongodb.com",
+      "auth_docs_url": "https://www.mongodb.com/docs/atlas/api/v2-spec/#tag/Authentication",
+      "pricing_url": "https://www.mongodb.com/pricing"
+    },
+    "automated_fetch_success": false
+  },
+  {
+    "name": "Datadog",
+    "category": "Developer, Infra and Data platforms",
+    "one_line_description": "Monitoring and security platform for cloud-scale infrastructure.",
+    "authentication": [
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://docs.datadoghq.com/api/",
+    "confidence": 100.0,
+    "buildability_score": 95.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://docs.datadoghq.com/api/",
+      "developer_portal_url": "https://app.datadoghq.com",
+      "auth_docs_url": "https://docs.datadoghq.com/api/latest/security/",
+      "pricing_url": "https://www.datadoghq.com/pricing/"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Sentry",
+    "category": "Developer, Infra and Data platforms",
+    "one_line_description": "Developer-first error tracking and software crash analytics platform.",
+    "authentication": [
+      "Bearer Token"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://docs.sentry.io/api/",
+    "confidence": 100.0,
+    "buildability_score": 90.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://docs.sentry.io/api/",
+      "developer_portal_url": "https://sentry.io/settings/account/api/",
+      "auth_docs_url": "https://docs.sentry.io/api/auth/",
+      "pricing_url": "https://sentry.io/pricing/"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Notion",
+    "category": "Productivity and Project Management",
+    "one_line_description": "Customizable wiki, document, and workspace management utility.",
+    "authentication": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "No",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developers.notion.com/",
+    "confidence": 100.0,
+    "buildability_score": 85.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://developers.notion.com/",
+      "developer_portal_url": "https://www.notion.so/my-integrations",
+      "auth_docs_url": "https://developers.notion.com/docs/authorization",
+      "pricing_url": "https://www.notion.so/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Airtable",
+    "category": "Productivity and Project Management",
+    "one_line_description": "Low-code database and collaborative spreadsheet utility.",
+    "authentication": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://airtable.com/developers/web/api",
+    "confidence": 100.0,
+    "buildability_score": 100.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://airtable.com/developers/web/api",
+      "developer_portal_url": "https://airtable.com/create/tokens",
+      "auth_docs_url": "https://airtable.com/developers/web/api/introduction#authentication",
+      "pricing_url": "https://airtable.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Linear",
+    "category": "Productivity and Project Management",
+    "one_line_description": "Issue tracking tool designed for high-performance software engineering teams.",
+    "authentication": [
+      "OAuth2",
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "No",
+    "graphql": "Yes",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developers.linear.app/",
+    "confidence": 100.0,
+    "buildability_score": 100.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://developers.linear.app/",
+      "developer_portal_url": "https://linear.app/settings/api",
+      "auth_docs_url": "https://developers.linear.app/docs/graphql/working-with-the-api#authentication",
+      "pricing_url": "https://linear.app/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Jira",
+    "category": "Productivity and Project Management",
+    "one_line_description": "Project management and issue tracker software for agile teams.",
+    "authentication": [
+      "OAuth2",
+      "Basic Auth"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/",
+    "confidence": 100.0,
+    "buildability_score": 100.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/",
+      "developer_portal_url": "https://developer.atlassian.com",
+      "auth_docs_url": "https://developer.atlassian.com/cloud/jira/platform/jira-rest-api-oauth-2-3lo-apps/",
+      "pricing_url": "https://www.atlassian.com/software/jira/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Asana",
+    "category": "Productivity and Project Management",
+    "one_line_description": "Work management tool to help teams orchestrate projects and tasks.",
+    "authentication": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developers.asana.com/docs",
+    "confidence": 100.0,
+    "buildability_score": 100.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://developers.asana.com/docs",
+      "developer_portal_url": "https://app.asana.com/0/developer-console",
+      "auth_docs_url": "https://developers.asana.com/docs/authentication",
+      "pricing_url": "https://asana.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Monday.com",
+    "category": "Productivity and Project Management",
+    "one_line_description": "Work operating system that enables teams to build custom workflows.",
+    "authentication": [
+      "OAuth2",
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "No",
+    "graphql": "Yes",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developer.monday.com/api-reference",
+    "confidence": 100.0,
+    "buildability_score": 100.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://developer.monday.com/api-reference",
+      "developer_portal_url": "https://developer.monday.com",
+      "auth_docs_url": "https://developer.monday.com/api-reference/docs/authentication",
+      "pricing_url": "https://monday.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "ClickUp",
+    "category": "Productivity and Project Management",
+    "one_line_description": "Customizable workspace app offering tasks, docs, and goals APIs.",
+    "authentication": [
+      "OAuth2",
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://clickup.com/api/",
+    "confidence": 100.0,
+    "buildability_score": 100.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://clickup.com/api/",
+      "developer_portal_url": "https://app.clickup.com",
+      "auth_docs_url": "https://clickup.com/api/developer-portal/authentication/",
+      "pricing_url": "https://clickup.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Coda",
+    "category": "Productivity and Project Management",
+    "one_line_description": "Collaborative text editor combining documents, spreadsheets, and databases.",
+    "authentication": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://coda.io/developers/apis/v1",
+    "confidence": 100.0,
+    "buildability_score": 85.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://coda.io/developers/apis/v1",
+      "developer_portal_url": "https://coda.io/account",
+      "auth_docs_url": "https://coda.io/developers/apis/v1#section/Authentication",
+      "pricing_url": "https://coda.io/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Smartsheet",
+    "category": "Productivity and Project Management",
+    "one_line_description": "SaaS platform for work management and collaboration using row/sheet concepts.",
+    "authentication": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://smartsheet.com/developers",
+    "confidence": 100.0,
+    "buildability_score": 85.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://smartsheet.com/developers",
+      "developer_portal_url": "https://app.smartsheet.com",
+      "auth_docs_url": "https://smartsheet.redoc.ly/#section/Authentication",
+      "pricing_url": "https://www.smartsheet.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Harvest",
+    "category": "Productivity and Project Management",
+    "one_line_description": "Time tracking and business invoicing software offering developer access.",
+    "authentication": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "No",
+    "api_breadth": "Moderate",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Medium",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://help.getharvest.com/api-v2/",
+    "confidence": 100.0,
+    "buildability_score": 70.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://help.getharvest.com/api-v2/",
+      "developer_portal_url": "https://id.getharvest.com/developers",
+      "auth_docs_url": "https://help.getharvest.com/api-v2/authentication/",
+      "pricing_url": "https://www.getharvest.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Stripe",
+    "category": "Finance and Fintech",
+    "one_line_description": "Global financial infrastructure and payment processing API suite.",
+    "authentication": [
+      "API Key",
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://stripe.com/docs/api",
+    "confidence": 100.0,
+    "buildability_score": 100.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://stripe.com/docs/api",
+      "developer_portal_url": "https://dashboard.stripe.com",
+      "auth_docs_url": "https://stripe.com/docs/api/authentication",
+      "pricing_url": "https://stripe.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Plaid",
+    "category": "Finance and Fintech",
+    "one_line_description": "Fintech API connecting consumer bank accounts to applications.",
+    "authentication": [
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://plaid.com/docs/",
+    "confidence": 100.0,
+    "buildability_score": 95.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://plaid.com/docs/",
+      "developer_portal_url": "https://dashboard.plaid.com",
+      "auth_docs_url": "https://plaid.com/docs/quickstart/#keys",
+      "pricing_url": "https://plaid.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Binance",
+    "category": "Finance and Fintech",
+    "one_line_description": "Global cryptocurrency exchange marketplace with public websocket and REST trading APIs.",
+    "authentication": [
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "No",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Medium",
+    "primary_blocker": "Requires verified personal account with regulatory restrictions in certain jurisdictions",
+    "evidence_url": "https://binance-docs.github.io/apidocs/spot/en/",
+    "confidence": 100.0,
+    "buildability_score": 65.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://binance-docs.github.io/apidocs/spot/en/",
+      "developer_portal_url": "https://www.binance.com/en/my/settings/api-management",
+      "auth_docs_url": "https://binance-docs.github.io/apidocs/spot/en/#api-library-list",
+      "pricing_url": "https://www.binance.com/en/fee/schedule"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Paygent Connect",
+    "category": "Finance and Fintech",
+    "one_line_description": "Payment settlement gateway serving merchant accounts.",
+    "authentication": [
+      "API Key"
+    ],
+    "credential_availability": "Gated/Requires sales outreach",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "No",
+    "api_breadth": "Limited",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Low",
+    "primary_blocker": "Partner gated / Requires corporate verification and physical sales request",
+    "evidence_url": "https://paygent.com",
+    "confidence": 100.0,
+    "buildability_score": 20.0,
+    "needs_human_review": true,
+    "evidence": {
+      "api_docs_url": "https://paygent.com",
+      "developer_portal_url": "https://paygent.com",
+      "auth_docs_url": "https://paygent.com",
+      "pricing_url": "https://paygent.com"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "iPayX",
+    "category": "Finance and Fintech",
+    "one_line_description": "Billing management and corporate invoice software.",
+    "authentication": [
+      "Basic Auth"
+    ],
+    "credential_availability": "Gated/Requires sales outreach",
+    "public_api": "No",
+    "rest": "No",
+    "graphql": "No",
+    "webhook_support": "No",
+    "api_breadth": "Limited",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Low",
+    "primary_blocker": "No documented public API available for developer sign-ups",
+    "evidence_url": "https://ipayx.ai/docs",
+    "confidence": 100.0,
+    "buildability_score": 15.0,
+    "needs_human_review": true,
+    "evidence": {
+      "api_docs_url": "https://ipayx.ai/docs",
+      "developer_portal_url": "https://ipayx.ai",
+      "auth_docs_url": "https://ipayx.ai",
+      "pricing_url": "https://ipayx.ai"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "QuickBooks",
+    "category": "Finance and Fintech",
+    "one_line_description": "Cloud financial software for accounting, invoices, and business tax filings.",
+    "authentication": [
+      "OAuth2"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developer.intuit.com/app/developer/qbo/docs/api/service/accounting/v3",
+    "confidence": 100.0,
+    "buildability_score": 85.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://developer.intuit.com/app/developer/qbo/docs/api/service/accounting/v3",
+      "developer_portal_url": "https://developer.intuit.com/app/developer/dashboard",
+      "auth_docs_url": "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization",
+      "pricing_url": "https://quickbooks.intuit.com/pricing/"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Xero",
+    "category": "Finance and Fintech",
+    "one_line_description": "Accounting platform offering transaction syncing and ledger tools.",
+    "authentication": [
+      "OAuth2"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developer.xero.com/documentation/api/accounting/overview",
+    "confidence": 100.0,
+    "buildability_score": 85.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://developer.xero.com/documentation/api/accounting/overview",
+      "developer_portal_url": "https://developer.xero.com/app/dashboard",
+      "auth_docs_url": "https://developer.xero.com/documentation/guides/oauth2/overview",
+      "pricing_url": "https://www.xero.com/pricing/"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Brex",
+    "category": "Finance and Fintech",
+    "one_line_description": "Corporate card, spend management, and corporate banking platform.",
+    "authentication": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Moderate",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://developer.brex.com/",
+    "confidence": 100.0,
+    "buildability_score": 85.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://developer.brex.com/",
+      "developer_portal_url": "https://dashboard.brex.com",
+      "auth_docs_url": "https://developer.brex.com/docs/authentication",
+      "pricing_url": "https://www.brex.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Ramp",
+    "category": "Finance and Fintech",
+    "one_line_description": "Finance automation and corporate spend platform.",
+    "authentication": [
+      "OAuth2",
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Moderate",
+    "mcp_availability": "No",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://docs.ramp.com/",
+    "confidence": 100.0,
+    "buildability_score": 85.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://docs.ramp.com/",
+      "developer_portal_url": "https://ramp.com/developer-hub",
+      "auth_docs_url": "https://docs.ramp.com/developer-hub/oauth",
+      "pricing_url": "https://ramp.com/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "PitchBook",
+    "category": "Finance and Fintech",
+    "one_line_description": "Private capital market database and financial platform.",
+    "authentication": [
+      "API Key"
+    ],
+    "credential_availability": "Gated/Requires sales outreach",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "No",
+    "api_breadth": "Comprehensive",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Low",
+    "primary_blocker": "Requires high enterprise subscription tier and custom sales contract signoff",
+    "evidence_url": "https://pitchbook.com",
+    "confidence": 80.0,
+    "buildability_score": 15.0,
+    "needs_human_review": true,
+    "evidence": {
+      "api_docs_url": "https://pitchbook.com",
+      "developer_portal_url": "https://pitchbook.com",
+      "auth_docs_url": "https://pitchbook.com",
+      "pricing_url": "https://pitchbook.com/demo"
+    },
+    "automated_fetch_success": false
+  },
+  {
+    "name": "NotebookLM",
+    "category": "AI, Research and Media-native",
+    "one_line_description": "Personalized AI research assistant notebook developed by Google.",
+    "authentication": [
+      "OAuth2",
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "No",
+    "api_breadth": "Limited",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Medium",
+    "primary_blocker": "Managed via Google Cloud Vertex AI integrations",
+    "evidence_url": "https://cloud.google.com/gemini",
+    "confidence": 100.0,
+    "buildability_score": 70.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://cloud.google.com/gemini",
+      "developer_portal_url": "https://console.cloud.google.com",
+      "auth_docs_url": "https://cloud.google.com/vertex-ai/docs/reference",
+      "pricing_url": "https://cloud.google.com/vertex-ai/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Otter AI",
+    "category": "AI, Research and Media-native",
+    "one_line_description": "AI transcription, meeting notes, and conversation capture tool.",
+    "authentication": [
+      "API Key"
+    ],
+    "credential_availability": "Gated/Requires sales outreach",
+    "public_api": "No",
+    "rest": "No",
+    "graphql": "No",
+    "webhook_support": "No",
+    "api_breadth": "Limited",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "Low",
+    "primary_blocker": "No documented public API available for developer sign-ups",
+    "evidence_url": "https://help.otter.ai",
+    "confidence": 80.0,
+    "buildability_score": 30.0,
+    "needs_human_review": true,
+    "evidence": {
+      "api_docs_url": "https://help.otter.ai",
+      "developer_portal_url": "https://otter.ai",
+      "auth_docs_url": "https://help.otter.ai",
+      "pricing_url": "https://otter.ai/pricing"
+    },
+    "automated_fetch_success": false
+  },
+  {
+    "name": "Fathom",
+    "category": "AI, Research and Media-native",
+    "one_line_description": "Free AI meeting recorder that records, transcribes, and highlights business calls.",
+    "authentication": [
+      "OAuth2"
+    ],
+    "credential_availability": "Gated/Requires sales outreach",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Limited",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Low",
+    "primary_blocker": "API is partner-gated for authorized integration clients",
+    "evidence_url": "https://fathom.video",
+    "confidence": 100.0,
+    "buildability_score": 40.0,
+    "needs_human_review": true,
+    "evidence": {
+      "api_docs_url": "https://fathom.video",
+      "developer_portal_url": "https://fathom.video",
+      "auth_docs_url": "https://fathom.video",
+      "pricing_url": "https://fathom.video/pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Consensus",
+    "category": "AI, Research and Media-native",
+    "one_line_description": "AI search engine that finds research insights from peer-reviewed scientific papers.",
+    "authentication": [
+      "OAuth2"
+    ],
+    "credential_availability": "Gated/Requires sales outreach",
+    "public_api": "No",
+    "rest": "No",
+    "graphql": "No",
+    "webhook_support": "No",
+    "api_breadth": "Limited",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Low",
+    "primary_blocker": "No documented public developer API portal open for signup",
+    "evidence_url": "https://consensus.app",
+    "confidence": 80.0,
+    "buildability_score": 20.0,
+    "needs_human_review": true,
+    "evidence": {
+      "api_docs_url": "https://consensus.app",
+      "developer_portal_url": "https://consensus.app",
+      "auth_docs_url": "https://consensus.app",
+      "pricing_url": "https://consensus.app/pricing/"
+    },
+    "automated_fetch_success": false
+  },
+  {
+    "name": "Reducto",
+    "category": "AI, Research and Media-native",
+    "one_line_description": "Developer tool for ingestion and OCR parsing of PDFs/documents.",
+    "authentication": [
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "No",
+    "api_breadth": "Limited",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Medium",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://reducto.ai",
+    "confidence": 100.0,
+    "buildability_score": 65.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://reducto.ai",
+      "developer_portal_url": "https://dashboard.reducto.ai",
+      "auth_docs_url": "https://reducto.ai/docs",
+      "pricing_url": "https://reducto.ai/#pricing"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Devin",
+    "category": "AI, Research and Media-native",
+    "one_line_description": "Autonomous AI software developer agent platform.",
+    "authentication": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Moderate",
+    "mcp_availability": "Yes",
+    "toolkit_buildability": "High",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://docs.devin.ai/",
+    "confidence": 100.0,
+    "buildability_score": 95.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://docs.devin.ai/",
+      "developer_portal_url": "https://devin.ai",
+      "auth_docs_url": "https://docs.devin.ai/api",
+      "pricing_url": "https://devin.ai"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "higgsfield",
+    "category": "AI, Research and Media-native",
+    "one_line_description": "AI video creation and editing application system.",
+    "authentication": [
+      "API Key"
+    ],
+    "credential_availability": "Gated/Requires sales outreach",
+    "public_api": "No",
+    "rest": "No",
+    "graphql": "No",
+    "webhook_support": "No",
+    "api_breadth": "Limited",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Low",
+    "primary_blocker": "No documented public API available for developer sign-ups",
+    "evidence_url": "https://higgsfield.ai",
+    "confidence": 100.0,
+    "buildability_score": 20.0,
+    "needs_human_review": true,
+    "evidence": {
+      "api_docs_url": "https://higgsfield.ai",
+      "developer_portal_url": "https://higgsfield.ai",
+      "auth_docs_url": "https://higgsfield.ai",
+      "pricing_url": "https://higgsfield.ai"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Mermaid CLI",
+    "category": "AI, Research and Media-native",
+    "one_line_description": "Command-line interface tools to generate diagrams from Markdown scripts.",
+    "authentication": [
+      "None"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "No",
+    "graphql": "No",
+    "webhook_support": "No",
+    "api_breadth": "Limited",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Medium",
+    "primary_blocker": "Open source CLI utility, not an online SaaS service API",
+    "evidence_url": "https://github.com/mermaid-js/mermaid-cli",
+    "confidence": 100.0,
+    "buildability_score": 50.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://github.com/mermaid-js/mermaid-cli",
+      "developer_portal_url": "https://github.com/mermaid-js/mermaid-cli",
+      "auth_docs_url": "https://github.com/mermaid-js/mermaid-cli",
+      "pricing_url": "https://github.com/mermaid-js/mermaid-cli"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "YouTube Transcript",
+    "category": "AI, Research and Media-native",
+    "one_line_description": "Developer utility service for grabbing transcripts of YouTube videos.",
+    "authentication": [
+      "API Key"
+    ],
+    "credential_availability": "Available via developer portal",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "No",
+    "api_breadth": "Limited",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Medium",
+    "primary_blocker": "None identified",
+    "evidence_url": "https://transcriptapi.com",
+    "confidence": 100.0,
+    "buildability_score": 65.0,
+    "needs_human_review": false,
+    "evidence": {
+      "api_docs_url": "https://transcriptapi.com",
+      "developer_portal_url": "https://transcriptapi.com",
+      "auth_docs_url": "https://transcriptapi.com",
+      "pricing_url": "https://transcriptapi.com"
+    },
+    "automated_fetch_success": true
+  },
+  {
+    "name": "Grain",
+    "category": "AI, Research and Media-native",
+    "one_line_description": "Meeting recording software and automated transcription API.",
+    "authentication": [
+      "OAuth2",
+      "API Key"
+    ],
+    "credential_availability": "Gated/Requires sales outreach",
+    "public_api": "Yes",
+    "rest": "Yes",
+    "graphql": "No",
+    "webhook_support": "Yes",
+    "api_breadth": "Limited",
+    "mcp_availability": "No",
+    "toolkit_buildability": "Low",
+    "primary_blocker": "API is partner-gated for authorized integration clients",
+    "evidence_url": "https://grain.com",
+    "confidence": 100.0,
+    "buildability_score": 40.0,
+    "needs_human_review": true,
+    "evidence": {
+      "api_docs_url": "https://grain.com",
+      "developer_portal_url": "https://grain.com",
+      "auth_docs_url": "https://grain.com",
+      "pricing_url": "https://grain.com/pricing"
+    },
+    "automated_fetch_success": true
+  }
+]
